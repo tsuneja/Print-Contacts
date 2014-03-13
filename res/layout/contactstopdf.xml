@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray" >
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert To Pdf"
+        android:layout_gravity="center" />
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/saveAsStorage"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Save To Storage" 
+        android:visibility="invisible"/>
+    <Button
+        android:id="@+id/saveToEmail"
+        android:visibility="invisible"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Save via Email" />
+        
+    </LinearLayout>
+
+</LinearLayout>
